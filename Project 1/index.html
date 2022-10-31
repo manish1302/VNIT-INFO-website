@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>College Website</title>
+
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!--ICONSCOUNT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!--======= SWIPER JS=========-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <h4>VNIT</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><img id="redButton" src="images/orange.png" alt=""></li>
+            </ul>
+            <!--This is for mobile using some icons Hamburger icons and close icons-->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <!-------------------Header section----------------->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>The future of your career begins here</h1>
+                <p>Welcome to one of the oldest engineering college in India.
+                    VNIT is known for it's lush green campus. VNIT is named after the greatest engineer of all time Sir Visvesvaraya.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get started</a>
+            </div>
+
+            <div class="header__right">
+                <div class="header_right-image">
+                    <img src="images/mainimg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=====================END OF HEADER========================-->
+
+    <!--=====================CategoriesS========================-->
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Clubs</h1>
+                <p>There are various clubs in VNIT you can join.There are more than 20 clubs for every other skill you can learn, one for singing, one for dance, one for photgraphy...so on.</p>
+                <a href = "https://vnit.ac.in/" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <!--The <article> tag specifies independent, self-contained content.-->
+                    <span class="category__icon">
+                        <i class="uil uil-puzzle-piece"></i>
+                    </span>
+                    <h5>Axis</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quae!
+                    </p>
+                </article>
+                <article class="category">
+                    <!--The <article> tag specifies independent, self-contained content.-->
+                    <span class="category__icon">
+                        <i class="uil uil-usd-circle"></i>
+                    </span>
+                    <h5>ECELL</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quae!
+                    </p>
+                </article>
+                <article class="category">
+                    <!--The <article> tag specifies independent, self-contained content.-->
+                    <span class="category__icon">
+                        <i class="uil uil-camera"></i>
+                    </span>
+                    <h5>Club Capture</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quae!
+                    </p>
+                </article>
+                <article class="category">
+                    <!--The <article> tag specifies independent, self-contained content.-->
+                    <span class="category__icon">
+                        <i class="uil uil-music"></i>
+                    </span>
+                    <h5>Octaves</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quae!
+                    </p>
+                </article>
+                <article class="category">
+                    <!--The <article> tag specifies independent, self-contained content.-->
+                    <span class="category__icon">
+                        <i class="uil uil-pen"></i>
+                    </span>
+                    <h5>Mag.com</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quae!
+                    </p>
+                </article>
+                <article class="category">
+                    <!--The <article> tag specifies independent, self-contained content.-->
+                    <span class="category__icon">
+                        <i class="uil uil-smile"></i>
+                    </span>
+                    <h5>Prayaas</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quae!
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--=====================END OF Categories========================-->
+
+    <!--=======================COURSES=================================-->
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="images/graph.png" alt="">
+                </div>
+                <div class="course__info">
+                    <H4>Graphs</H4>
+                    <p>Graphs are non-linear data structures. They are used in handling real worl problems like telephone networks, social networks.</p>
+                    <a href="https://www.youtube.com/watch?v=LCrovIMurxY&list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="images/tree.png" alt="">
+                </div>
+                <div class="course__info">
+                    <H4>Binary Tree</H4>
+                    <p>A non linear data structure with nodes and each node does have only 2 nodes. It is used in Microsoft Excel and spreadsheets in usual. </p>
+                    <a href="https://www.youtube.com/watch?v=OYqYEM1bMK8&list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            
+            <article class="course">
+                <div class="course__image">
+                    <img src="images/dp.png" alt="">
+                </div>
+                <div class="course__info">
+                    <H4>Dynamic programming</H4>
+                    <p>Dynamic programming used for solving problems effieciently that have overlapping sub problems or optimal substructures.</p>
+                    <a href="https://www.youtube.com/watch?v=FfXoiwwnxFw&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMYs" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How do I change my branch?</h4>
+                    <p>
+                        Branch changing is possible if you there are vacancies in the branch you wanted to go. And there shouldn't be anyone who is aspiring to change his branch to the one you want to and have greater CGPA than you.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>How to maintain good CGPA?</h4>
+                    <p>
+                        improving CGPA after first year may be hard than it is getting good grades in first year. If you get good grades inf first year then you can easily maintain good CGPA in all the upcoming years.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>When does the internship drive start?</h4>
+                    <p>
+                        The internship drive starts at the end of second year i.e., after 4th semester. But you can apply for the offline internships well before on campus internship drive starts. Some websites where you can find internships is internshala.com, glassdoor.com. 
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>which coding language should I pick?</h4>
+                    <p>
+                        You can pick any coding language of your choice. And mastering one language is pretty much enough. If you pick c++ solving DSA shuold be easy. IF JAVA, it is also helpful in android development. If you want a easy to understand and use, you can pick python.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Where do I start DSA?</h4>
+                    <p>
+                        The order which is preferred is Arrays, strings, HashMaps, Linked List, Stack, Queue, Heaps,Tree, Graph. And algorithms as sorting, searching, greedy, graph algorithms, dfs, bfs, dynamic programming. 
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What projects do I do?</h4>
+                    <p>
+                        You can pick any technology you are interested in. Learn basic of it and explore what you can. You can always start doing a project which already made and taught in youtube or any other platform to get tha hang of it and to understand the flow of the project.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>Where do I start solving problems</h4>
+                    <p>
+                        There are several sites which help you to practice problems like GeeksForGeeks, Leetcode, codestudio, interviewbit etc. I suggest you to start with HackerRank to get the hang of the coding language you picked.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="uil uil-plus"></i></div>
+                <div class="question__answer">
+                    <h4>What kind of problems do I solve?</h4>
+                    <p>
+                        There are several sheets made by many coders across the world. I will provide the links here. <br>
+                    
+                        <a href="https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/">striver sheet</a><br>
+                        <a href="https://docs.google.com/spreadsheets/d/1-wKcV99KtO91dXdPkwmXGTdtyxAfk1mbPXQg81R9sFE/edit?usp=sharing">fraz sheet</a><br>
+                        <a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view">love babbar sheet</a><br>
+                        <a href="https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/">must do coding questions</a><br>
+                        <a href="https://seanprashad.com/leetcode-patterns/">Sean prashad</a><br>
+                        
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--=================END OF FAQS========================-->
+
+
+    <!--=====================STUDENT TESTIMONIALS======================-->
+
+    <section class="container testimonials__container mySwiper">
+        <h2>Student's Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/sujith.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Sujith Kumar</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo at debitis aspernatur quam
+                        facilis, mollitia consequuntur dignissimos, est explicabo recusandae similique.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/sainath.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Sainath</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo at debitis aspernatur quam
+                        facilis, mollitia consequuntur dignissimos, est explicabo recusandae similique.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/manish.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Manish</h5>
+                    <small>web developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo at debitis aspernatur quam
+                        facilis, mollitia consequuntur dignissimos, est explicabo recusandae similique.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/saikrishna.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Sai Krishna</h5>
+                    <small>CSE student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo at debitis aspernatur quam
+                        facilis, mollitia consequuntur dignissimos, est explicabo recusandae similique.
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/koti.png" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Koti Reddy</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, nemo at debitis aspernatur quam
+                        facilis, mollitia consequuntur dignissimos, est explicabo recusandae similique.
+                    </p>
+                </div>
+
+            </article>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html">
+                    <h4>VNIT</h4>
+                </a>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quis?
+                </p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Courses.html">Resources</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href=""> Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+9398380761</p>
+                    <p>manishpatil1326@gmail.com</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li>
+                        <a href=""><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="uil uil-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="uil uil-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer__copyright">
+            <small>Copyrights ©</small>
+        </div>
+    </footer>
+
+    <!--=======JAVA SCRIPT-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            // when the window size if >= 600px
+
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+
+
+        var redicon = document.getElementById("redButton");
+
+        redicon.addEventListener('click', () => {
+            document.body.classList.toggle("red-theme");
+        })
+    </script>
+</body>
+
+</html>
